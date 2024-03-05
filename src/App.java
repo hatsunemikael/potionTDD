@@ -2,7 +2,7 @@ import processing.core.*;
 
 public class App extends PApplet{
     public static void main(String[] args){
-        System.out.println("Hello, World!");
+        System.out.println("potion game");
         App app = new App();
         app.runSketch();
     }
@@ -12,7 +12,7 @@ public class App extends PApplet{
     }
 
     public void setup(){
-        
+        text("yoyo", 260, 80);
     }
 
     public void draw(){
